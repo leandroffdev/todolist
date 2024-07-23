@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Todo list</title>
+</head>
+<body>
+    <h1 class="title">To do list</h1>
+    <article class="container">
+        <label for="task">Task</label>
+        <input type="text" class="task" id="task" required>
+        <label for="desc">Desc</label>
+        <textarea class="desc" id="desc" required></textarea>
+        <button class="btn add" onclick="addTask()">Add Task</button>
+    </article>
+    <article class="tasks"></article>
+    <script src="./script.js"></script>
+</body>
+</html>
