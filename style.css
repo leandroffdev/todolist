@@ -75,6 +75,9 @@
         grid-column: 1 / -1;
     }
     .taskCard .btn {
+        position: relative;
+        bottom: auto;
+        right: auto;
         grid-column: 1 / -1;
     }
 }
