@@ -44,7 +44,7 @@
     display: grid;
     grid-template-columns: 1fr 150px;
     gap: 20px;
-    width: 43.75rem;
+    width: 100%;
     margin: auto;
     background-color: #e6e5e5;
     padding: 24px;
@@ -66,4 +66,15 @@
     border-radius: 8px;
     line-height: 24px;
     padding: 4px 20px;
+}
+@media (max-width: 800px) {
+    .taskCard {
+        grid-template-columns: 1fr;
+    }
+    .taskCard p {
+        grid-column: 1 / -1;
+    }
+    .taskCard .btn {
+        grid-column: 1 / -1;
+    }
 }
