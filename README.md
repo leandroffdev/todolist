@@ -1,7 +1,37 @@
-Excited to share my latest project: a dynamic Todo List web page built entirely with HTML, CSS, and JavaScript!
+# To-Do List 📝
 
-In this project, I focused on creating a user-friendly simple interface that allows you to add and delete tasks. 
+Este repositório contém o código-fonte de uma aplicação **To-Do List** interativa, desenvolvida com **HTML**, **CSS** e **JavaScript**. A aplicação permite que os usuários adicionem, excluam e gerenciem suas tarefas, com dados armazenados localmente no navegador.
 
-Check out the demo to see it in action and let me know what you think! 
+## 🚀 Tecnologias Utilizadas
+- **HTML5**: Estrutura semântica da aplicação.
+- **CSS3**: Estilização com design simples e responsivo.
+- **JavaScript**: Manipulação de DOM e funcionalidades da To-Do List.
 
+## 📂 Estrutura do Repositório
+```plaintext
+/todolist/
+├── style.css       # Estilos da aplicação
+├── script.js       # Scripts de interação
+├── index.html      # Arquivo principal da aplicação
+└── README.md       # Documentação do projeto
+
+🌟 Funcionalidades
+Adicionar novas tarefas.
+Marcar tarefas como concluídas.
+Excluir tarefas indesejadas.
+Armazenamento local para salvar tarefas entre sessões.
+
+⚙️ Como Usar
+Clone o repositório:
+
+bash
+Copy code
+git clone https://github.com/leandroffdev/todolist.git
+cd todolist
+Abra o arquivo index.html no navegador para acessar a aplicação.
+
+🛠️ Melhorias Futuras
+Adicionar opção de edição de tarefas.
+Permitir categorização das tarefas.
+Implementar integração com APIs para sincronização.
 #WebDevelopment #JavaScript #HTML #CSS #TodoListApp #FrontendDev #ProjectShowcase #Frontend
